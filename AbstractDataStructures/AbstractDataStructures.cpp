@@ -7,6 +7,8 @@
 
 using namespace std;
 
+// TODO: Падает на втором добавлении в очередь на двух стеках
+// TODO: Некорректно выводит очередь на кольцевом буфере
 int GetValue()
 {
     int value = -1;
@@ -84,6 +86,7 @@ void DisplayMenu()
 
 void StackMenu()
 {
+    // TODO: Использовать динамическую память (во всех структурах). Не забыть про очистку памяти
     Stack stack;
 
     int choice, value;
